@@ -14,7 +14,7 @@ Low-light image enhancement (LLIE) is an ill-posed inverse problem due to the la
 ## Citation
 
     @InProceedings{Ozcan_2023_CVPR,
-        author    = {Ozcan, Mustafa and Ergezer, Hamza and Ayazo\u{g}lu, Mustafa},
+        author    = {Ozcan, Mustafa and Ergezer, Hamza and Ayazoglu, Mustafa},
         title     = {FLIGHT Mode On: A Feather-Light Network for Low-Light Image Enhancement},
         booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
         month     = {June},
