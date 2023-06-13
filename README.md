@@ -4,6 +4,19 @@
 
 Code will be published soon.
 
+## Test
+1. Modify validation dataset paths (`data.val.lr_path` and `data.val.hr_path`) in `configs/conf.yaml` accordingly. Make sure that `load_pretrained` and `pretrained_path` are set correctly. You may change `loader.val.batch_size` to speed up the inference.
+2. Run test code.
+       
+       python test.py
+
+## Test
+1. Configure '--directory' to define test dataset,
+2. Modify '--save' to change saved model parameters according to training dataset 
+3. Run test code.
+       
+       python test.py
+
 **Abstract:** 
 Low-light image enhancement (LLIE) is an ill-posed inverse problem due to the lack of knowledge of the desired image which is obtained under ideal illumination conditions. Low-light conditions give rise to two main issues: a suppressed image histogram and inconsistent relative color distributions with low signal-to-noise ratio. In order to address these problems, we propose a novel approach named FLIGHT-Net using a sequence of neural architecture blocks. The first block regulates illumination conditions through pixel-wise scene dependent illumination adjustment. The output image is produced in the output of the second block, which includes channel attention and denoising sub-blocks. Our highly efficient neural network architecture delivers state-of-the-art performance with only 25K parameters. The method's code, pretrained models and resulting images will be publicly available
 
