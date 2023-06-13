@@ -4,11 +4,6 @@
 
 Code will be published soon.
 
-## Test
-1. Modify validation dataset paths (`data.val.lr_path` and `data.val.hr_path`) in `configs/conf.yaml` accordingly. Make sure that `load_pretrained` and `pretrained_path` are set correctly. You may change `loader.val.batch_size` to speed up the inference.
-2. Run test code.
-       
-       python test.py
 
 ## Test
 1. Configure '--directory' to define test dataset,
